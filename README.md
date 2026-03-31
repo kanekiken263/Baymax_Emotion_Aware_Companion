@@ -146,7 +146,3 @@ DeepEmotionCNN
 This project was built for educational and demonstration purposes.  
 Baymax is a character owned by Disney / Marvel. This is a fan project.
 
----
-
-*Baymax would like you to know that this README was written with your satisfaction as the primary concern.*  
-*On a scale of 1 to 10, how would you rate your understanding of this project?*
