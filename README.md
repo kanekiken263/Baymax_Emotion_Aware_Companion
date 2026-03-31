@@ -24,7 +24,7 @@ Happy Vibes playlist. Immediately.
 A custom **DeepEmotionCNN** (built with PyTorch) processes your webcam feed in real time, classifying your facial expression into one of 7 emotions: `happy`, `sad`, `angry`, `fear`, `disgust`, `surprise`, `neutral`. The model is trained on the FER-2013 dataset with data augmentation and achieves strong accuracy across all 7 classes.
 
 ### Baymax AI Brain
-Baymax is powered by the **Claude API (claude-sonnet)** with a carefully crafted system prompt that keeps him fully in character — calm, caring, slightly literal, and always health-focused. A rule-based fallback is included for offline use or when no API key is provided.
+Baymax is powered by the **Groq API** with a carefully crafted system prompt that keeps him fully in character — calm, caring, slightly literal, and always health-focused. A rule-based fallback is included for offline use or when no API key is provided.
 
 ### Smart Music Engine
 Chat sentiment and face emotion are **combined** to determine the mood signal. Chat wins if it carries a strong emotional keyword; otherwise the face emotion drives the selection. Music is fetched live from **YouTube Music** via `yt-dlp` — no API key, no billing, completely free.
@@ -131,7 +131,7 @@ DeepEmotionCNN
 ## 💡 Features at a Glance
 
 - 🎭 **7-class real-time emotion detection** from webcam
-- 🤖 **Claude-powered Baymax** — stays fully in character
+- 🤖 **Groq-powered Baymax** — stays fully in character
 - 🎵 **Live YouTube Music search** — no API key, no cost
 - 🧠 **Combined mood signal** — face emotion + chat sentiment
 - 📷 **Draggable camera bubble** — minimal, non-intrusive
